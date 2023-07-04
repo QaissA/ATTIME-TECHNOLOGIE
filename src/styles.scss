@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Oswald';
+    src: url('./assets/fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+    /* Add additional formats if you have them */
+  }
+
+  .oswald{
+    font-family: Oswald;
+  }
+
+  .margin-top{
+    margin-top: 20px;
+  }
+
+  .margin-bottom{
+    margin-bottom: 15px;
+  }
+
+  body{
+    background-color: #1d1d1d;
+  }

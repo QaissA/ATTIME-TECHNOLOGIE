@@ -1,0 +1,54 @@
+<div class="container cards-container">
+    <!-- card 1-->
+    <div  class="card-container col-md-3 col-xs-12" (mouseenter)="startHover('image1')" (mouseleave)="endHover('image1')" [ngClass]="{'startHover' : hoverEffect, 'cards-container' : !hoverEffect}">
+        <div class="col-md-12 col-xs-12"  >
+            <img src="../../../assets/images/4257487.png" alt="" *ngIf="!hoverEffect">
+            <img src="../../../assets/images/4257487-2.png" alt="" *ngIf="hoverEffect">
+        </div>
+        <div class="col-md-12 col-xs-12">
+            <h4 class="oswald"> Business Technology Consulting</h4>
+        </div>
+        <div *ngIf="hoverEffect" class="col-md-12 col-xs-12">
+            <p class="oswald">Lorem, ipsu est distinctio earum sint dolorum animi illo sequi quia, quo repudiandae officia.</p>
+        </div>
+        <div *ngIf="hoverEffect" class="col-md-12 col-xs-12">
+            <button class="oswald">Explore</button>
+        </div>
+    </div>
+    <!--end of card 1-->
+    <!--card 2-->
+    <div class="card-container col-md-3 col-xs-12" (mouseenter)="startHover('image2')" (mouseleave)="endHover('image2')" [ngClass]="{'startHover1' : hoverEffect1, 'cards-container' : !hoverEffect1}">
+        <div class="col-md-12 col-xs-12">
+            <img src="../../../assets/images/1449158.png" alt="" *ngIf="!hoverEffect1">
+            <img src="../../../assets/images/1449158-2.png" alt="" *ngIf="hoverEffect1">
+        </div>
+        <div class="col-md-12 col-xs-12">
+            <h4 class="oswald">Digital & Data <br/> Factory</h4>
+        </div>
+        <div *ngIf="hoverEffect1" class="col-md-12 col-xs-12">
+            <p class="oswald">Lorem, ipsu est distinctio earum sint dolorum animi illo sequi quia, quo repudiandae officia.</p>
+        </div>
+        <div *ngIf="hoverEffect1" class="col-md-12 col-xs-12">
+            <button class="oswald">Explore</button>
+        </div>
+    </div>
+    <!--end of card 2-->
+    <!--card 3-->
+    <div  class="card-container col-md-3 col-xs-12" (mouseenter)="startHover('image3')" (mouseleave)="endHover('image3')" [ngClass]="{'startHover2' : hoverEffect2, 'cards-container' : !hoverEffect2}">
+        <div class="col-md-12 col-xs-12">
+            <img src="../../../assets/images/2092629-bb9ef62b.png" alt="" *ngIf="!hoverEffect2">
+            <img src="../../../assets/images/2092629-bb9ef62b-2.png" alt="" *ngIf="hoverEffect2">
+        </div>
+        <div class="col-md-12 col-xs-12">
+            <h4 class="oswald">Infrastructure<br/> & security</h4>
+        </div>
+        <div *ngIf="hoverEffect2" class="col-md-12 col-xs-12">
+            <p class="oswald">Lorem, ipsu est distinctio earum sint dolorum animi illo sequi quia, quo repudiandae officia.</p>
+        </div>
+        <div *ngIf="hoverEffect2" class="col-md-12 col-xs-12">
+            <button class="oswald">Explore</button>
+        </div>
+
+    </div>
+    <!--end of card 3-->
+</div>
