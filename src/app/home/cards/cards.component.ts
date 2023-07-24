@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cards',
@@ -6,9 +7,30 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards.component.scss']
 })
 export class CardsComponent {
+
+  /**
+   *
+   */
+  constructor(private router : Router) {
+    
+  }
   hoverEffect : boolean = false;
   hoverEffect1 : boolean = false;
   hoverEffect2 : boolean = false;
+
+  cardInfo : any = [
+    {
+      id : 1,
+      title : "Business Technology Consulting"
+    },
+    {
+      id : 2,
+      title : "Digital Data Factory"
+    },    {
+      id : 3,
+      title : "Infrastructure & Security"
+    },
+  ]
 
   startHover(image:string){
     console.log(image);
@@ -33,5 +55,9 @@ export class CardsComponent {
     }else if(image === 'image3'){
       this.hoverEffect2 = false;
     }
+  }
+
+  goToDetails() {
+    this.router.navigateByUrl('/details');
   }
 }

@@ -12,7 +12,8 @@
             <p class="oswald">Lorem, ipsu est distinctio earum sint dolorum animi illo sequi quia, quo repudiandae officia.</p>
         </div>
         <div *ngIf="hoverEffect" class="col-md-12 col-xs-12">
-            <button class="oswald">Explore</button>
+            <button class="oswald" (click)="goToDetails()">Explore</button>
+            <a class="oswald" routerLink="/details">Explore</a>
         </div>
     </div>
     <!--end of card 1-->
