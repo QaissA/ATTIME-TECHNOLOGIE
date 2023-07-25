@@ -12,6 +12,7 @@ import { BackgroundVideoComponent } from './UI/background-video/background-video
 import { HeroSectionComponent } from './page-btc/hero-section/hero-section.component';
 import { NavbarDetailComponent } from './page-btc/navbar-detail/navbar-detail.component';
 import { DomainSectionComponent } from './page-btc/domain-section/domain-section.component';
+import { ReferencesComponent } from './page-btc/references/references.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { DomainSectionComponent } from './page-btc/domain-section/domain-section
     HeroSectionComponent,
     NavbarDetailComponent,
     DomainSectionComponent,
+    ReferencesComponent,
   ],
   imports: [
     BrowserModule,

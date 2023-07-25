@@ -1,13 +1,19 @@
-.domainSection{
-    // position: relative;
+.DomainSectionWrapper
+{
+    background-color: #F3F3F3;
+}
+.domainSection_container{
     z-index: 17;
     margin-top: 150px;
-    padding: 200px 200px 20px 200px;
+    padding: 200px 200px 0px 200px;
     background-color: #F3F3F3;
+    object-fit: contain;
+
 }
 
 .domainSection__title {
     & h2{
+        position: relative;
         font-family: "Akshar", sans-serif;
         font-weight: 900;
     }
@@ -16,6 +22,8 @@
 .domainSection__cards{
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 .domainSection__card{
@@ -39,4 +47,120 @@
         font-family: "Alatsi", sans-serif;
         margin: 15px;
     }
+}
+
+.domainSection__shapes{
+    position: relative;
+}
+
+.domainSection__shape{
+    position: absolute;
+    top: 1134px;
+    left: 0px;
+    width: 1500px;    
+}
+
+.forceSection{
+    background: #000;
+    display: flex;
+    justify-content: center;
+
+}
+
+.forceSection__animation{
+    & div{
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: #E11A1A; // Change this to set the color of the points
+            border-radius: 50%;
+            bottom: 0;
+            left: 0;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: #E11A1A; // Change this to set the color of the points
+            border-radius: 50%;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    h2{
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        color: #E11A1A;
+        font-family: "Akshar", sans-serif;
+        font-weight: bold;
+        font-size: 55px;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+    &::before{
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #E11A1A; // Change this to set the color of the points
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #E11A1A; // Change this to set the color of the points
+        border-radius: 50%;
+        top: 0;
+        right: 0;
+    }
+    
+}
+
+.forceSection__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 300px;
+    & div{
+        display: flex;
+        width: 250px;
+        & p{
+            font-family: "Akshar", sans-serif;
+            color: #fff;
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+}
+
+.forceSection__point{
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.domainSection__shape-02{
+    width: 100%;
 }

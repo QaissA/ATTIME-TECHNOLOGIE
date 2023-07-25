@@ -44,6 +44,16 @@
         border-radius: 5px;
         padding: 5px 50px;
         font-weight: 800;
+        transition : background-color .5s
+    }
+
+    & button:hover{
+        background-color: #f75e5e;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 50px;
+        font-weight: 800;
     }
 }
 

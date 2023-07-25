@@ -1,27 +1,70 @@
-<section class="contaienr domainSection">
-  <div class="domainSection__title">
-    <h2>DOMAINES D'EXPERTISE</h2>
+<section class="DomainSectionWrapper">
+  <div class="domainSection_shapes">
+    <img
+      src="../../../assets/images/shape-2.png"
+      class="domainSection__shape"
+      alt=""
+    />
   </div>
-  <div class="domainSection__cards">
-    <!-- <div *ngFor="let card of cards"  class="domainSection__card">
-            <img src="{{ card.img }}" alt="">
-            <h4>{{ card.title }}</h4>
-        </div> -->
-    <div class="domainSection__card card-animation-1">
-      <img src="{{ cards[0].img }}" alt="" />
-      <h4>{{ cards[0].title }}</h4>
+  <!--start of the first part : domain d'expertise-->
+  <div class="domainSection">
+    <div class="contaienr domainSection_container">
+      <div class="domainSection__title">
+        <h2>DOMAINES D'EXPERTISE</h2>
+      </div>
+      <div class="domainSection__cards">
+        <div class="domainSection__card card-animation-1">
+          <img src="{{ cards[0].img }}" alt="" />
+          <h4>{{ cards[0].title }}</h4>
+        </div>
+        <div class="domainSection__card card-animation-2">
+          <img src="{{ cards[1].img }}" alt="" />
+          <h4>{{ cards[1].title }}</h4>
+        </div>
+        <div class="domainSection__card card-animation-3">
+          <img src="{{ cards[2].img }}" alt="" />
+          <h4>{{ cards[2].title }}</h4>
+        </div>
+        <div class="domainSection__card card-animation-4">
+          <img src="{{ cards[3].img }}" alt="" />
+          <h4>{{ cards[3].title }}</h4>
+        </div>
+      </div>
     </div>
-    <div class="domainSection__card card-animation-2">
-      <img src="{{ cards[1].img }}" alt="" />
-      <h4>{{ cards[1].title }}</h4>
+  </div>
+  <!--end of the first part : domain d'expertise-->
+  <div class="forceSection">
+    <div class="forceSection__content left">
+      <div class="forceSection__content-left-01">
+        <p>
+          Une approche très pragmatique du conseil (nos expériences ont forgé nos
+          convictions)
+        </p>
+      </div>
+      <div class="forceSection__content-left-02">
+        <p>Une compréhension des usages de demain</p>
+      </div>
     </div>
-    <div class="domainSection__card card-animation-3">
-      <img src="{{ cards[2].img }}" alt="" />
-      <h4>{{ cards[2].title }}</h4>
+    <div class="forceSection__animation">
+      <div class="wrapper">
+        <img src="../../../assets/images/domain_animation.gif" alt="" />
+      </div>
+      <h2>NOS FORCES</h2>
     </div>
-    <div class="domainSection__card card-animation-4">
-      <img src="{{ cards[3].img }}" alt="" />
-      <h4>{{ cards[3].title }}</h4>
+    <div class="forceSection__content right">
+      <div class="forceSection__content-right-01">
+        <p>Un véritable ADN technologique</p>
+      </div>
+      <div class="forceSection__content-right-02">
+        <p>Une forte capacité d’écoute</p>
+      </div>
     </div>
+  </div>
+  <div class="domainSection_shapes">
+    <img
+      src="../../../assets/images/shape-3.png"
+      class="domainSection__shape-02"
+      alt=""
+    />
   </div>
 </section>
