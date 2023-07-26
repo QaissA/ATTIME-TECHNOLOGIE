@@ -1,0 +1,64 @@
+.footerBtcSection{
+    position: relative;
+    margin-top: 350px;
+}
+
+.footerBtcSection__bgImg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footerBtcSection__content{
+    padding: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & div{
+        & img {
+            width: 250px;
+        }
+    }
+
+    & div {
+        & div {
+            & div{
+                display: flex;
+            }
+            & h4{
+                color: #E11A1A;
+                font-family: "Akshar", sans-serif;
+                font-weight: bold;
+            }
+            & p{
+                color:  #fff;
+                font-family: "Akshar", sans-serif;
+                font-weight: bold;
+            }
+            & img{
+                width: 30px;
+                height: 30px;
+                margin: 5px;
+            }
+        }
+    }
+}
+
+.footerBtcSection__content-copyrights{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    & div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & p{
+            color:  #fff;
+            font-family: "Akshar", sans-serif;
+            font-weight: bold;
+        }
+    }
+}

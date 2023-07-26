@@ -13,6 +13,10 @@ import { HeroSectionComponent } from './page-btc/hero-section/hero-section.compo
 import { NavbarDetailComponent } from './page-btc/navbar-detail/navbar-detail.component';
 import { DomainSectionComponent } from './page-btc/domain-section/domain-section.component';
 import { ReferencesComponent } from './page-btc/references/references.component';
+import { SlideCarouselComponent } from './UI/slide-carousel/slide-carousel.component';
+
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { FooterBtcComponent } from './page-btc/footer-btc/footer-btc.component';
 
 @NgModule({
   declarations: [
@@ -27,10 +31,13 @@ import { ReferencesComponent } from './page-btc/references/references.component'
     NavbarDetailComponent,
     DomainSectionComponent,
     ReferencesComponent,
+    SlideCarouselComponent,
+    FooterBtcComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
