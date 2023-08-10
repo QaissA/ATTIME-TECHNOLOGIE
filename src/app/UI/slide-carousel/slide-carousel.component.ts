@@ -9,11 +9,12 @@ import "jquery";
 })
 export class SlideCarouselComponent {
   slides = [
-    { img: '../../../assets/images/offres online1 1.png' },
-    { img: '../../../assets/images/polydesign (2) 1.png' },
-    { img: '../../../assets/images/Logo_UHIIC-removebg-preview 1.png' },
-    { img: 'http://placehold.it/350x150/666666' },
-    { img: 'http://placehold.it/350x150/666666' },
+    { img: '../../../assets/images/barid cash.png' },
+    { img: '../../../assets/images/DPEF.png' },
+    { img: '../../../assets/images/offresonline.png' },
+    { img: '../../../assets/images/polydes.png' },
+    { img: '../../../assets/images/TGR.png' },
+    { img: '../../../assets/images/uh2c.png' },
   ];
   slideConfig = {
     slidesToShow: 4,

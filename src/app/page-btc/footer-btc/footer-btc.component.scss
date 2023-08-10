@@ -1,6 +1,7 @@
 .footerBtcSection{
     position: relative;
-    margin-top: 350px;
+    padding-top: 350px;
+    background-color: #f3f3f3;
 }
 
 .footerBtcSection__bgImg{
@@ -60,5 +61,12 @@
             font-family: "Akshar", sans-serif;
             font-weight: bold;
         }
+    }
+}
+
+@media screen and (max-width :679px) {
+    .footerBtcSection__bgImg{
+        height: 800px;
+        object-fit: cover;
     }
 }

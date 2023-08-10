@@ -5,7 +5,7 @@
 .domainSection_container{
     z-index: 17;
     margin-top: 150px;
-    padding: 200px 200px 0px 200px;
+    padding: 150px 200px 0px 200px;
     background-color: #F3F3F3;
     object-fit: contain;
 
@@ -16,6 +16,13 @@
         position: relative;
         font-family: "Akshar", sans-serif;
         font-weight: 900;
+        margin: 0;
+    }
+
+    & label{
+        color: #E11A1A;
+        font-family: "Akshar", sans-serif;
+        font-weight: bold;
     }
 }
 
@@ -24,6 +31,7 @@
     flex-wrap: wrap;
     position: relative;
     padding-bottom: 100px;
+    margin-top: 50px;
 }
 
 .domainSection__card{
@@ -55,7 +63,7 @@
 
 .domainSection__shape{
     position: absolute;
-    top: 1134px;
+    top: 1152px;
     left: 0px;
     width: 1500px;    
 }
@@ -64,103 +72,171 @@
     background: #000;
     display: flex;
     justify-content: center;
-
-}
-
-.forceSection__animation{
-    & div{
-        position: relative;
-        &::before{
-            content: "";
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: #E11A1A; // Change this to set the color of the points
-            border-radius: 50%;
-            bottom: 0;
-            left: 0;
-        }
-        &::after{
-            content: "";
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: #E11A1A; // Change this to set the color of the points
-            border-radius: 50%;
-            bottom: 0;
-            right: 0;
-        }
-    }
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
 
-    h2{
-        position: absolute;
-        top: 45%;
-        left: 30%;
-        color: #E11A1A;
-        font-family: "Akshar", sans-serif;
-        font-weight: bold;
-        font-size: 55px;
-    }
-
-    img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-    &::before{
-        content: "";
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        background-color: #E11A1A; // Change this to set the color of the points
-        border-radius: 50%;
-        top: 0;
-        left: 0;
-    }
-
-    &::after{
-        content: "";
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        background-color: #E11A1A; // Change this to set the color of the points
-        border-radius: 50%;
-        top: 0;
-        right: 0;
-    }
-    
 }
+.forceSection__titleContainer{
+    background-color: #000;
+    & .forceSection__title {
+        padding: 50px 0 10px 200px;
+        & h2{
+            font-family: "Akshar", sans-serif;
+            color: #fff;
+            font-weight: 900;
+            margin: 0;
+            font-size: 40px;
+        }
+         & label{
+            font-family: "Akshar", sans-serif;
+            font-weight: 900;
+            color: #E11A1A;
+    
+         }    
+    }
+}
+
+.forceSection_bgShape{
+    position: absolute;
+}
+
+
 
 .forceSection__content{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 300px;
-    & div{
-        display: flex;
-        width: 250px;
-        & p{
-            font-family: "Akshar", sans-serif;
-            color: #fff;
-            text-align: center;
-            font-size: 25px;
-        }
+    // gap: 300px;
+}
+
+.forceSection__content-pos_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 16;
+    padding-right: 450px;
+}
+
+
+
+.forceSection__content-left{
+    height: 150px;
+    display: flex;
+    justify-items: center;
+    & p{
+        font-family: 'Akshar', sans-serif;
+        color: #fff;
+        font-weight: 900;
+        font-size: 20px;
+        text-align: right;
+        padding: 25px 0;
+        margin: 0;
+    }
+
+    & label {
+        color: #E11A1A;
+        font-size: 70px;
+        font-weight: 900;
+        padding-left: 10px;
     }
 }
 
-.forceSection__point{
-    background-color: red;
-    width: 25px;
-    height: 25px;
-    padding: 15px;
-    border-radius: 50%;
+.forceSection__content-pos_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 18;
+    padding-left: 450px;
 }
+
+
+
+.forceSection__content-right{
+    height: 150px;
+    display: flex;
+    justify-items: center;
+    & p{
+        font-family: 'Akshar', sans-serif;
+        color: #fff;
+        font-weight: 900;
+        font-size: 20px;
+        text-align: left;
+        padding: 25px 0;
+        margin: 0;
+    }
+
+    & label {
+        color: #E11A1A;
+        font-size: 70px;
+        font-weight: 900;
+        padding-right: 10px;
+    }
+}
+
+
+
+
+
+
 
 .domainSection__shape-02{
     width: 100%;
+}
+
+
+
+@media screen and (max-width :679px) {
+    .domainSection_container{
+        z-index: 17;
+        margin-top: 150px;
+        padding: 0;
+        padding-top: 15px;
+        background-color: #F3F3F3;
+        object-fit: contain;
+    
+    }
+
+    .domainSection__shapes{
+        position: relative;
+    }
+
+    .domainSection__shape{
+        // position: absolute;
+        top: 1584px;
+        left: 0px;
+        width: 100%;    
+    }
+
+    .domainSection__card{
+        background-color: #fff;
+        width: 350px;
+        height: 150px;
+        
+    }
+
+    .forceSection__titleContainer{
+        background-color: #000;
+        & .forceSection__title {
+            padding: 50px 0 10px 20px;
+        }
+    }
+
+    .forceSection__content-pos_left{
+        padding-right: 0;
+        width: 350px;
+    }
+
+    .forceSection__content-pos_right{
+        padding-left: 0;
+        width: 350px;
+    }
+
+    .forceSection_bgShape{
+        & img{
+            width: 250px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
 }
