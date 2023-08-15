@@ -13,7 +13,7 @@
     & label {
       font-family: "Akshar", sans-serif;
       font-weight: 900;
-      color: #0ED7C9;
+      color: #0074FF;
     }
   }
   
@@ -24,6 +24,6 @@
 @media screen and (max-width :679px) {
     .sliderSection__pos{
         display: flex;
-        flex-direction: column  ;
+        flex-direction: column;
     }
 }

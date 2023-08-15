@@ -24,6 +24,11 @@ import { DomainSectionDdfComponent } from './page-ddf/domain-section-ddf/domain-
 import { ReferencesDdfComponent } from './page-ddf/references-ddf/references-ddf.component';
 import { FooterDdfComponent } from './page-ddf/footer-ddf/footer-ddf.component';
 import { PageIsComponent } from './page-is/page-is.component';
+import { NavbarIsComponent } from './page-is/navbar-is/navbar-is.component';
+import { DomainSectionIsComponent } from './page-is/domain-section-is/domain-section-is.component';
+import { FooterIsComponent } from './page-is/footer-is/footer-is.component';
+import { HeroSectionIsComponent } from './page-is/hero-section-is/hero-section-is.component';
+import { ReferencesIsComponent } from './page-is/references-is/references-is.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +52,11 @@ import { PageIsComponent } from './page-is/page-is.component';
     ReferencesDdfComponent,
     FooterDdfComponent,
     PageIsComponent,
+    NavbarIsComponent,
+    DomainSectionIsComponent,
+    FooterIsComponent,
+    HeroSectionIsComponent,
+    ReferencesIsComponent,
   ],
   imports: [
     BrowserModule,

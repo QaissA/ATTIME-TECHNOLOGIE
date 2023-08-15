@@ -57,11 +57,10 @@ export class CardsComponent {
     }
   }
 
-  goToPageBtc() {
-    this.router.navigateByUrl('/pagebtc');
+  goToDetails(route: string) {
+    this.router.navigateByUrl(route);
   }
 
-  gotToPageDdf(){
-    this.router.navigateByUrl('/pageddf');
-  }
+
+
 }
