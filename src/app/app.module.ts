@@ -17,6 +17,13 @@ import { SlideCarouselComponent } from './UI/slide-carousel/slide-carousel.compo
 
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { FooterBtcComponent } from './page-btc/footer-btc/footer-btc.component';
+import { PageDdfComponent } from './page-ddf/page-ddf.component';
+import { NavbarDdfComponent } from './page-ddf/navbar-ddf/navbar-ddf.component';
+import { HeroSectionDffComponent } from './page-ddf/hero-section-dff/hero-section-dff.component';
+import { DomainSectionDdfComponent } from './page-ddf/domain-section-ddf/domain-section-ddf.component';
+import { ReferencesDdfComponent } from './page-ddf/references-ddf/references-ddf.component';
+import { FooterDdfComponent } from './page-ddf/footer-ddf/footer-ddf.component';
+import { PageIsComponent } from './page-is/page-is.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +40,13 @@ import { FooterBtcComponent } from './page-btc/footer-btc/footer-btc.component';
     ReferencesComponent,
     SlideCarouselComponent,
     FooterBtcComponent,
+    PageDdfComponent,
+    NavbarDdfComponent,
+    HeroSectionDffComponent,
+    DomainSectionDdfComponent,
+    ReferencesDdfComponent,
+    FooterDdfComponent,
+    PageIsComponent,
   ],
   imports: [
     BrowserModule,

@@ -12,3 +12,12 @@ ul{
         color: white;
     }
 }
+
+@media screen and (max-width: 679px) {
+    .footer-container{
+        margin: 15px;
+        & p{
+            text-align: center;
+        }
+    }
+}

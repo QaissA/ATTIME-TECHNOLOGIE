@@ -1,0 +1,19 @@
+.referencesSectionWrapper {
+    background-color: #f3f3f3;
+  }
+  
+  .referencesSection__title {
+    & h2 {
+      font-family: "Akshar", sans-serif;
+      color: #000;
+      font-weight: 900;
+      margin: 0;
+      font-size: 40px;
+    }
+    & label {
+      font-family: "Akshar", sans-serif;
+      font-weight: 900;
+      color: #0ED7C9;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end !important;
+}
+
+.bg-body-tertiary{
+    background-color:  transparent !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    font-weight: 800;
+    color: #0ED7C9;
+    // border-bottom: 6px solid #CE1313;
+}
+a{
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    & li{
+        margin: 5px;
+    }
+}

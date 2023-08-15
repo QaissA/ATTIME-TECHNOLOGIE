@@ -16,6 +16,7 @@
     background: #fff;
     border-radius: 8px;
     height: 400px;
+    width: 400px;
     transition-property: background, border;
     transition-duration: 0.5s;
     display: flex;
@@ -165,4 +166,21 @@
         }
     }
 
+}
+
+
+@media screen and (max-width: 679px) {
+    .cards-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card-container{
+        margin: 15px;
+    }
+
+
+    
 }
