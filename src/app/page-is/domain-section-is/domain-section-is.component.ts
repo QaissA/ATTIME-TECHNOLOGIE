@@ -14,23 +14,28 @@ export class DomainSectionIsComponent {
   cards: any[] = [
     {
       id: 1,
-      img: '../../../assets/images/ddfDomain-icon1.png',
-      title: 'Design thinking & building (UX/UI)',
+      img: '../../../assets/images/Virtual reality.png',
+      title: 'Virtualisation technology',
     },
     {
       id: 2,
-      img: '../../../assets/images/ddfDomain-icon2.png',
-      title: 'Dev web & mobile custom',
+      img: '../../../assets/images/monitoring-system.png',
+      title: 'Monitoring and control systems',
     },
     {
       id : 3,
-      img: '../../../assets/images/ddfDomain-icon3.png',
-      title: 'Data Engineering, Science, Analyst & Ops',
+      img: '../../../assets/images/ci-cd-Recycled.png',
+      title: 'CI/CD Pipeline',
     },
     {
       id : 4,
-      img: '../../../assets/images/ddfDomain-icon4.png',
-      title: 'Coaching et management de projets agiles',
+      img: '../../../assets/images/container-Solution.png',
+      title: 'Container Management Solutions',
+    },
+    {
+      id : 5,
+      img: '../../../assets/images/Cyber security.png',
+      title: 'Cybersecurity & Artificial Intelligence',
     },
   ];
 

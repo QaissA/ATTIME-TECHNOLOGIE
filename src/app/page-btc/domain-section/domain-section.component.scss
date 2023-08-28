@@ -97,6 +97,9 @@
 
 .forceSection_bgShape{
     position: absolute;
+    & img{
+        height: 450px;
+    }
 }
 
 
@@ -120,16 +123,16 @@
 
 
 .forceSection__content-left{
-    height: 150px;
+    height: 100px;
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     & p{
         font-family: 'Akshar', sans-serif;
         color: #fff;
         font-weight: 900;
         font-size: 20px;
         text-align: right;
-        padding: 25px 0;
         margin: 0;
     }
 
@@ -152,16 +155,16 @@
 
 
 .forceSection__content-right{
-    height: 150px;
+    height: 100px;
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     & p{
         font-family: 'Akshar', sans-serif;
         color: #fff;
         font-weight: 900;
         font-size: 20px;
         text-align: left;
-        padding: 25px 0;
         margin: 0;
     }
 
